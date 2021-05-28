@@ -2,7 +2,7 @@
 
 :root {
  --light-grey: #2b3032a1;
- --primary-color: #45ccb8;
+ --primary-color: #3a3cbd;
  --border: #2b303218;
  --text-color: #ff686b;
  --roboto: "Roboto",sans-serif;
@@ -64,8 +64,26 @@ header{
 
 }
 
+.search-icons{
+    color: white;
+}
 
+.navbar-nav{
+    padding: 0.8em 0em;
+}
 
+.navbar-nav .nav-link{
+    font-size: 0.9em;
+    color: var(--text-color) !important
+}
+
+.navbar-nav .nav-item .nav-link {
+    padding: 0 1.3em;
+}
+
+.navbar-nav .basket-icon {
+margin-right: 6.5rem !important
+}
 
 
 
